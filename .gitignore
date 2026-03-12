@@ -1,0 +1,45 @@
+# 1. Datasets
+# Prevent pushing large raw or processed image datasets to the repository
+dataset/
+dataset_single_class/
+data/
+*.zip
+*.tar.gz
+
+# 2. Ultralytics & Model Weights
+# Ignore training outputs, logs, and heavy model weight files
+runs/
+*.pt
+*.pth
+*.onnx
+*.engine
+!trained_weights/*.pt
+
+# 3. Python & Virtual Environments
+# Ignore environment configurations and compiled bytecode
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 4. Jupyter Notebooks
+# Ignore checkpoint files created automatically by Jupyter
+.ipynb_checkpoints/
+
+# 5. OS Generated Files
+# Ignore system-specific hidden files (macOS/Windows)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 6. IDEs and Editors
+# Ignore workspace settings for VS Code, PyCharm, etc.
+.vscode/
+.idea/
+*.swp
