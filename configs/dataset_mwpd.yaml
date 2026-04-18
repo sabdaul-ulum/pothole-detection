@@ -1,0 +1,8 @@
+path: ../dataset
+
+train: mwpd/train/images
+val: mwpd/val/images
+test: mwpd/test/images
+
+nc: 1
+names: ['Pothole']

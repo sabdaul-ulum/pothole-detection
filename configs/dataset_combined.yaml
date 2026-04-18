@@ -1,0 +1,8 @@
+path: ../dataset
+
+train: combined/train/images
+val: combined/val/images
+test: combined/test/images
+
+nc: 1
+names: ['Pothole']
