@@ -1,0 +1,8 @@
+path: ../dataset
+
+train: real-world-test/test/images
+val: real-world-test/test/images
+test: real-world-test/test/images
+
+nc: 1
+names: ['Pothole']

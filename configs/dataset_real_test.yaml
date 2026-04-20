@@ -1,8 +1,0 @@
-path: ../dataset
-
-train: real-test/test/images
-val: real-test/test/images
-test: real-test/test/images
-
-nc: 1
-names: ['Pothole']
