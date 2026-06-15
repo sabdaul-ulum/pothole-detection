@@ -1,0 +1,8 @@
+path: ../dataset
+
+train: bpid/test/images
+val: bpid/test/images
+test: bpid/test/images
+
+nc: 1
+names: ['Pothole']

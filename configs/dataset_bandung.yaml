@@ -1,0 +1,8 @@
+path: ../dataset
+
+train: bandung/test/images
+val: bandung/test/images
+test: bandung/test/images
+
+nc: 1
+names: ['Pothole']
